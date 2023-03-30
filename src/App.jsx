@@ -62,10 +62,12 @@ const App = () => {
   }
 
   return (
-    <main>
-      <Tours tours={tours} removeTour={removeTour} />
+    <>
+      <main>
+        <Tours tours={tours} removeTour={removeTour} />
+      </main>
       <Footer />
-    </main>
+    </>
   )
 }
 export default App
